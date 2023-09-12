@@ -11,7 +11,7 @@ function getUserStatus(token) {
 }
 
 function getRequiredStatus(pathname) {
-  if (pathname === '/admin') {
+  if (pathname === '/admin2') {
     return 'admin';
   } else if (pathname === '/profile') {
     return 'user';
